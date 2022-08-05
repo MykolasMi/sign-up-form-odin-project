@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10vw;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.leftContainer {
+    height: 100vh;
+    width: 32vw;
+    position: relative;
+    background-image: url("bicas.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.rightContainer {
+    height: 100vh;
+    width: 68vw;
+    position: relative;
+}
+
+.logoBackdrop {
+    height: 20vh;
+    width: 32vw;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}
+
+.logoContainer {
+    display: flex;
+    position: absolute;
+    top: 25vh;
+}
+
+.logo {
+    top: -17vh;
+    width: 30vw;
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+}
+
+.credits {
+    position: absolute;
+    top: 97vh;
+    color: white;
+    margin: auto;
+    margin-left: 17%;
+}
+
+a {
+    color: white;
+}
+
+.textAboveForm {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+#joinUs {
+    margin-top: 10px; /*atskirti nes marginai neklauso del hierarchijos
+}
