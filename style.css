@@ -63,10 +63,10 @@ a {
 
 .textAboveForm {
     display: flex;
-    position: absolute;
+    /*position: absolute;*/
     flex-direction: column;
 }
 
 #joinUs {
-    margin-top: 10px; /*atskirti nes marginai neklauso del hierarchijos
+    margin-top: 10px; /*atskirti nes marginai neklauso del hierarchijos*/
 }
