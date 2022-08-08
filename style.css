@@ -81,7 +81,8 @@ form {
     align-items: baseline;
     gap: 10px;
     margin: 0 30px;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px rgb(197, 197, 197);
+    margin-top: 25vh;
 }
 
 .names, .passwords {
@@ -96,14 +97,40 @@ form {
 #email, #phoneNumber {
     width:195%;
     gap: 10px;
+    margin: 0 5px;
+}
+
+#email {
+    margin-bottom: 5px;
 }
 
 .pair {
     display: flex;
     flex-direction: column;
+    margin: 0px 5px;
 }
 
-input:focus {
-    background-color: white;
+.error {
+    border: 1px solid red;
+}
+
+.noError{
+    border: 1px solid blueviolet;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+input:focus-visible, input:focus {
+    background-color: #ffe7e7;
+    border: 1px solid blueviolet;
+    outline: none;
+    box-shadow: 0px 1px 3px rgb(161, 161, 161);
+}
+
+input:hover {
+    background-color: rgb(255, 231, 231);
 }
 /*Form End*/
